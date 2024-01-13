@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+      *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+        .daute-main {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: antiquewhite;
+            height: 100px;
+            justify-items: center;
+            line-height: 100px;
+
+        }
+   
+        .than{
+            padding-top: 20px;
+        }
+        .than1{
+            padding-left: 900px;
+        }
+        .xanh {
+            background-color: aquamarine !important;
+        }
+
+
+        .thangiua {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+        }
+        .anh-1 {
+            width: 400px;
+            margin-right: 400px;
+        
+   }
+   .hoang {
+
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 31px;
+    background-color: bisque;
+    height: 150px;
+    justify-items: center;
+    line-height: 150px;
+}
+
+
+
+   .thangiua-text {
+    font-size: 50px;
+   }
+   .thangiua-text2 {
+    font-size: 13px;
+   }
+   .a {
+    margin-top: 20px;
+   }
+   .dau {
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: bisque;
+    height: 100px;
+   }
+   .dau11 {
+    margin-top: 20px;
+   }
+   .dau2 {
+line-height: 100px;   }
+
+    .hoang1 {
+      
+    }
+
+    .cuoi{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .cuoi1 {
+        color: aqua;
+    }
+    .q{
+        display: flex;
+    }
+
+    ul a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    background-color: rgb(191, 191, 238) ;
+    color: #333;
+    border-radius: 50%;
+
+}
+a {
+    text-decoration: none;
+}
+.v{
+    line-height: 100px;
+    border: 2px solid  ;
+    background-color: aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    
+}
+.ga{
+    display: -webkit-flex;
+    display: flex;
+    list-style: none;
+    
+}
+.f{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background: antiquewhite;
+}
+.m{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    position: relative;
+}
+.me{
+    padding: 20px;
+}
+.ka{
+    list-style: none;
+}
+.ka-1{
+    display: none;
+    background-color: bisque;
+    position: absolute;
+}
+
+.thangiua-1{
+    padding: 30px;
+}
+
+.header {
+    background-color: #333;
+    height: 46px;
+    display: flex;
+    /* justify-content: space-around; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.app{
+    overflow: hidden;
+}
+.nav {
+    display: flex;
+}
+.nav__list {
+    list-style: none;    
+    padding-left: 0;
+    position: relative;
+}
+.nav > .nav__list > a {
+    text-transform: uppercase;
+}
+.nav__link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ccc;
+    line-height: 46px;
+    display: block;
+    padding: 0 24px;
+    height: 100%;
+}
+.nav__link:hover {
+    background-color: #ccc;
+    color: #333;
+}
+
+.nav___sub{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 1px  #ccc;
+    display: none;
+    list-style: none;
+    border-radius: 3px;
+    text-transform: capitalize;
+    z-index: 1;
+    line-height: 32px;
+
+}
+.more-hyouji:hover .nav___sub{
+    display: block;
+}
+
+.nav___sub-item{
+    color: #333;
+    font-size: 16px;
+    min-width: 160px;
+    padding-left: 12px;
+}
+.nav___sub-item:hover {
+    background-color: #ccc;
+    color: #333;
+}
+.header__search{
+    background-color: red;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+}
+.header__search-icon {
+    color: #fff;
+}
+.header__search:hover {
+    filter: opacity(90%);
+    cursor: pointer;
+}
+.header__menu{
+    background-color: #ccc;
+    color: #333;
+    padding: 0 12px;
+    position: relative;
+    line-height: 46px;
+}
+.header__menu-list{
+    position: fixed;
+    top: 46px;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 1px #ccc;
+    list-style: none;
+    /* display: none; */
+}
+
+
+
+
+
+    </style>
+
+<!-- User Heat Tag -->
+<script type="text/javascript">
+    (function(add, cla){window['UserHeatTag']=cla;window[cla]=window[cla]||function(){(window[cla].q=window[cla].q||[]).push(arguments)},window[cla].l=1*new Date();var ul=document.createElement('script');var tag = document.getElementsByTagName('script')[0];ul.async=1;ul.src=add;tag.parentNode.insertBefore(ul,tag);})('//uh.nakanohito.jp/uhj2/uh.js', '_uhtracker');_uhtracker({id:'uhPlZTVMzm'});
+    </script>
+    <!-- End User Heat Tag -->
+
+
+
+
+<body>
+
+     <header class="header">
+
+            <ul class="nav mt-on-hi ">
+                <li class="nav__list more-hyouji">
+                    <a href="" class="nav__link"> Home
+                        <ul class="nav___sub">
+                            <h5>IPHONE</h5>
+                            <li class="nav___sub-item">iPhone  15 pro</li>
+                            <li class="nav___sub-item">iPhone  14 pro</li>
+                            <li class="nav___sub-item">iPhone  13 pro</li>
+                            <h5>IPAD</h5>
+                            <li class="nav___sub-item">IPad Pro</li>
+                            <li class="nav___sub-item">iPad mini</li>
+                            <li class="nav___sub-item">iPad Air</li>
+                            <h5>WATCH</h5>
+                            <li class="nav___sub-item">Apple Watch Series 9</li>
+                            <li class="nav___sub-item">Apple Watch Nike</li>
+                            <li class="nav___sub-item">Apple Match Ultra 2</li>
+                            <h5>エンターティンメント</h5>
+                            <li class="nav___sub-item">Apple one</li>
+                            <li class="nav___sub-item">Apple Music</li>
+                            <li class="nav___sub-item">Apple TV+</li>
+                            <h5>MAC</h5>
+                            <li class="nav___sub-item">iMac</li>
+                            <li class="nav___sub-item">MacBook Pro</li>
+                            <li class="nav___sub-item">MacBook Air</li>
+                        </ul>
+    
+                    </a>
+                </li>
+                
+                
+                
+            </ul>
+
+            
+           
+
+        </header>
+
+  
+   
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XVS1FDNKB8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XVS1FDNKB8');
+</script>
+
+
+
+
+
+
+    <div class="thangiua">
+
+
+    <div class="thangiua-1">
+        <div class="thangiua-text"> プライベートも</div>
+        <div class="thangiua-text">ビジネスも </div>
+        <div class="thangiua-text">自由自在</div>
+
+        <div class="a">
+
+
+            <div class="thangiua-text2">感覚でわかるインターフェスによる圧倒的な使いやすいさ</div>
+            <div class="thangiua-text2">思い出しの写真や大事な人からのメッセージは、大切に記憶し、そして時に取り出したい</div>
+            <div class="thangiua-text2">さらに進化したセキュリティ機能を登場しているから、ビジネスシーンにも頼まれる存在。</div>
+            
+        </div>
+    </div>
+   
+
+        <div class="anh">
+            <img src="https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-hero-geo-230912_inline.jpg.large_2x.jpg" alt="" class="anh-1">
+        </div>
+       
+    </div>
+
+
+    <!-- <div class="cuoi">
+        <div class="cuoi1">
+            <div >⬇️</div>
+            <div >SCROLL START</div>
+        </div>
+    </div> -->
+
+    <!-- <div>
+     <ul class="hoang">
+        <a href="./shinkan1.html">    <li class="hoang1">新感覚の操作感</li></a>
+        <a href="./shimon1.html">    <li class="hoang1">指紋セキュリティ</li></a>
+        <a href="./kamera1.html">    <li class="hoang1">高性能カメラ</li></a>
+        <a href="./gyara1.html">    <li class="hoang1">ギャラリー</li></a>
+        <a href="./dogamiru1.html">    <li class="hoang1">動画を見る</li></a>
+
+     </ul>
+      
+    </div> -->
+    
+</body>
+
+</html>
